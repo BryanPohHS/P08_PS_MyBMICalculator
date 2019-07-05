@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="weight"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="height"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reset" />
+
+    <TextView
+        android:id="@+id/tvLastDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastDate" />
+
+    <TextView
+        android:id="@+id/tvLastBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastBMI" />
+
+    <TextView
+        android:id="@+id/tvOutcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
